@@ -84,16 +84,16 @@ span.psw {
 /* The Close Button (x) */
 .close {
     position: absolute;
-    right: 25px;
+    right: 30px;
     top: 0;
     color: #000;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: red;
+    color: blue;
     cursor: pointer;
 }
 
@@ -114,10 +114,10 @@ span.psw {
 }
 
 /* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
     span.psw {
        display: block;
-       float: none;
+       
     }
     .cancelbtn {
        width: 100%;
@@ -127,7 +127,7 @@ span.psw {
 </head>
 <body>
 
-<h1>Welcome to my Login page..</h1><br>
+<h1>Welcome to my Login page of HacktoberFest</h1><br>
 <h3>If you are an already registered user the directly login through clicking to this "login" button</h3>
 
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
